@@ -21,6 +21,11 @@ body {
     margin: 0;
 }
 
+#hero-image {
+    height: auto;
+    max-width: 480px;
+}
+
 li {
     list-style: none;
 }
@@ -50,4 +55,19 @@ a {
 .quote,
 .get-in-touch {
     display: flex;
+}
+
+.main-landing {
+    justify-content: space-around;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.hero-left {
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
