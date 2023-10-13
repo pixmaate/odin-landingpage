@@ -91,6 +91,19 @@ h1 {
     color: white;
     border-color: white;
     font-size: 16px;
+    font-weight: 600;
+    padding: 8px;
+}
+
+#contact-button {
+    max-width: 250px;
+    background-color: #3882f6;
+    border-radius: 5px;
+    color: white;
+    border-color: white;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 8px;
 }
 
 .higlights {
@@ -163,4 +176,10 @@ h1 {
     margin: 100px 400px 100px 400px;
     background-color: #3882f6;
     justify-content: space-around;
+}
+
+.contact-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
