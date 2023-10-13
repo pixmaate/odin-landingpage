@@ -44,3 +44,10 @@ a {
     font-weight: 600;
     text-align: center;
 }
+
+.main-landing,
+.higlights,
+.quote,
+.get-in-touch {
+    display: flex;
+}
