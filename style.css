@@ -6,9 +6,29 @@ body {
 .header {
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    background-color: #1f2937;
 }
 
 #main-logo {
     width: 100px;
     height: auto;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
 }
