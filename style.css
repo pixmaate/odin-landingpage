@@ -58,7 +58,9 @@ a {
 .quote,
 .get-in-touch,
 .items,
-.quote {
+.quote,
+.quote-main,
+.quote-author {
     display: flex;
 }
 
@@ -133,6 +135,26 @@ h1 {
 
 .quote {
     flex-direction: column;
-    padding: 64px;
+    padding: 84px;
     background-color: #e5e7eb;
+}
+
+.quote-main {
+    margin-left: 25%;
+    justify-content: flex-start;
+    width: 1000px;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.quote-author {
+    margin-right: 20%;
+    justify-content: flex-end;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.quote-text {
+    color:#1f2937;
 }
