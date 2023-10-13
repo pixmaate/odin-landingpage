@@ -64,6 +64,7 @@ a {
     justify-content: space-around;
     background-color: #1f2937;
     color: white;
+    padding-bottom: 48px;
 }
 
 .hero-left {
