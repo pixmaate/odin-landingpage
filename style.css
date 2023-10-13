@@ -57,7 +57,8 @@ a {
 .higlights,
 .quote,
 .get-in-touch,
-.items {
+.items,
+.quote {
     display: flex;
 }
 
@@ -128,4 +129,10 @@ h1 {
 .title {
     font-size: 36px;
     font-weight: bolder;
+}
+
+.quote {
+    flex-direction: column;
+    padding: 64px;
+    background-color: #e5e7eb;
 }
