@@ -56,7 +56,8 @@ a {
 .main-landing,
 .higlights,
 .quote,
-.get-in-touch {
+.get-in-touch
+.items {
     display: flex;
 }
 
@@ -87,4 +88,23 @@ h1 {
     color: white;
     border-color: white;
     font-size: 16px;
+}
+
+.higlights {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+}
+
+.higlight-image {
+    width: 240px;
+    height: auto;
+    border-radius: 25px;
+    border: blue;
+    border-width: 25px;
+}
+
+.items {
+    flex-direction: row;
 }
